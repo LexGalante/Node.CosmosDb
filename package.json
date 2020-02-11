@@ -1,0 +1,34 @@
+{
+  "name": "node.cosmosdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon",
+    "production": "pm2 start src/index.js --name node-cosmosdb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LexGalante/Node.CosmosDb.git"
+  },
+  "author": "Alex Volnei Galante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LexGalante/Node.CosmosDb/issues"
+  },
+  "homepage": "https://github.com/LexGalante/Node.CosmosDb#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "node-restful": "^0.2.6",
+    "pm2": "^4.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  }
+}
